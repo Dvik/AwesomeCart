@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+        <EditText
+            android:focusable="true"
+            android:editable="true"
+            android:background="@null"
+            style="@style/TextAppearance.AppCompat"
+            android:layout_toRightOf="@+id/checkBox"
+            android:layout_width="match_parent"
+            android:textColor="@color/colorPrimary"
+            android:textSize="20sp"
+            android:hint="Title"
+            android:textColorHint="@color/colorAccent"
+            android:layout_height="wrap_content"
+            android:windowSoftInputMode="stateVisible"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/tv_title"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

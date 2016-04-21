@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="48dp"
+    android:orientation="vertical"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="5dp"
+        >
+
+        <ImageView
+
+            android:id = "@+id/sss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="20dp"
+            android:src="@android:drawable/ic_menu_add"/>
+
+
+        <TextView
+            style="@style/TextAppearance.AppCompat"
+            android:layout_toRightOf="@+id/sss"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add Item"
+            android:layout_centerInParent="true"
+            android:background="@null"
+            android:textColor="#aba8a8"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView"
+            />
+
+        <TextView
+            style="@style/TextAppearance.AppCompat"
+            android:layout_toRightOf="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ABCD Place"
+            android:visibility="gone"
+
+            android:layout_marginTop="10dp"
+            android:background="@null"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/textView1"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
