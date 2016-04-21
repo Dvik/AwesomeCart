@@ -5,6 +5,5 @@ The special part is the adapter implementation.
 
 Screenshots
 -----------
-![demo](https://github.com/Dvik/AwesomeCart/tree/master/gif/cart.gif)
+![cart](https://github.com/Dvik/AwesomeCart/tree/master/gif/cart.gif)
 
-on real device it is much more smoother.
